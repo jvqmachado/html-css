@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sidebar</title>
+</head>
+<body>
+    <aside class="sidebar">
+        <header class="sidebar-header">
+            <img class="logo-img" src="https://sujeitoprogramador.com/steve.png" alt="Foto do Usuário">
+        </header>
+        <nav>
+            <button>
+                <span>
+                    <i class="fa-solid fa-house"></i>
+                    <span>Home</span>
+                </span>
+            </button>
+            <button>
+                <span>
+                    <i class="fa-brands fa-wpexplorer"></i>
+                    <span>Explorar</span>
+                </span>
+            </button>
+            <button>
+                <span>
+                    <i class="fa-solid fa-envelope-circle-check"></i>
+                    <span>Mensagens</span>
+                </span>
+            </button>
+            <button>
+                <span>
+                    <i class="fa-solid fa-person-shelter"></i>
+                    <span>Profile</span>
+                </span>
+            </button>
+        </nav>
+    </aside>
+    
+    <button class="button-mobile" onclick="toggleMenu">
+        <i class="fa-solid fa-house"></i>
+        <span>menu</span>
+    </button>
+    <nav class="menu-mobile" id="menu-mobile">
+        <button>
+            <span>
+                <i class="fa-solid fa-xmarks-lines"></i>
+            </span>
+        </button>
+        <button>
+            <span>
+                <i class="fa-solid fa-house"></i>
+                <span class="mobile-text">Home</span>
+            </span>
+        </button>
+        <button>
+            <span>
+                <i class="fa-brands fa-wpexplorer"></i>
+                <span class="mobile-text">Explorar</span>
+            </span>
+        </button>
+        <button>
+            <span>
+                <i class="fa-solid fa-envelope-circle-check"></i>
+                <span class="mobile-text">Mensagens</span>
+            </span>
+        </button>
+        <button>
+            <span>
+                <i class="fa-solid fa-person-shelter"></i>
+                <span class="mobile-text">Profile</span>
+            </span>
+        </button>
+    </nav>
+    
+    <main class="main">
+        <h1>Bem Vindos ao nosso site</h1>
+        <span>@sujeitoprogramador</span>
+    </main>
+
+
+    <script src="script.js"></script>
+    
+    <script src="https://kit.fontawesome.com/7ca3238b17.js" crossorigin="anonymous"></script>
+</body>
+</html>

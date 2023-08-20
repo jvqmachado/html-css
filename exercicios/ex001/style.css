@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 450px;
+    height: 450px;
+    border: 1px solid red;
+    display: flex;
+}
+
+.box {
+    background-color: #ddd;
+    border: 1px solid green;
+    width: 60px;
+    height: 60px;
+    flex-basis: 120px;
+    flex: 1 1 100px;
+}
